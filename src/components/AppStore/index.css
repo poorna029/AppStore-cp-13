@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  background-image: linear-gradient(to bottom, #fff1eb, #dfe2e5, #ace0f9);
+  min-height: 100vh;
+  padding: 10vh 20vw;
+  max-height: 150vh;
+}
+
+.hel {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px 10px;
+  width: 42%;
+  align-self: center;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.search-image {
+  width: 35px;
+  background-color: transparent;
+  margin-left: 0px;
+  padding: 2px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  /* width: 250px; */
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  width: 25vw;
+  padding: 2px;
+  align-self: center;
+}
+.search-input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  line-height: 25px;
+  font-size: 25px;
+  margin-right: 0px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  text-align: center;
+  font-family: 'Bree Serif';
+}
+
+.self {
+  align-self: center;
+  width: 100%;
+  margin: 0px auto;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100vw;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    justify-content: center;
+    /* margin-left: -10vw; */
+    padding: 0px;
+  }
+  .search-image {
+    width: 35px;
+    background-color: transparent;
+    margin-left: 0px;
+    padding: 2px;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+    /* width: 250px; */
+    border: 1px solid #7b8794;
+    border-radius: 5px;
+    width: 65vw;
+    padding: 2px;
+    align-self: center;
+  }
+  .search-input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    line-height: 25px;
+    font-size: 25px;
+    margin-right: 0px;
+  }
+}
+.apps-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

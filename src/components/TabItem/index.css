@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.hel {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  width: 100%;
+  justify-content: space-evenly;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+.active {
+  border-bottom: 1px solid #2563eb;
+  padding-bottom: -9px;
+  color: #2563eb;
+  font-weight: 800;
+}
+.tab-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
